@@ -161,5 +161,26 @@ document.getElementById('startButton').addEventListener('click', () => {
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
 
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBZf74DTboobDRAuiBOOclEBSGYnOv5oQE",
+    authDomain: "mobile-quiz-sync.firebaseapp.com",
+    databaseURL: "https://mobile-quiz-sync-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "mobile-quiz-sync",
+    storageBucket: "mobile-quiz-sync.firebasestorage.app",
+    messagingSenderId: "306475332437",
+    appId: "1:306475332437:web:96a711321096fcd2f5f5dc"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script> 
+  
 </body>
 </html>
